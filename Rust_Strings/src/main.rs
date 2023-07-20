@@ -4,9 +4,7 @@ use std::io::{Write, BufReader, BufRead, ErrorKind};
 use std::fs::File;
 use std::cmp::Ordering;
 
-
-
-fn main(){ 
+fn main() {
     let s=String::from("a b c d e f g h i j k k l m");
     let mut v1:Vec<char>=s.chars().collect();
     v1.sort();
@@ -28,4 +26,5 @@ fn main(){
     for char in s7.bytes(){
         println!("{}",char);
     }
+
 }

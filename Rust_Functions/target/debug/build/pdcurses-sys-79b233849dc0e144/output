@@ -1,0 +1,335 @@
+cargo:rustc-link-lib=dylib=user32
+cargo:rustc-link-lib=dylib=gdi32
+cargo:rustc-link-lib=dylib=comdlg32
+cargo:rustc-link-lib=dylib=shell32
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-pc-windows-msvc")
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("true")
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/addch.o" "-c" "src/PDCurses/pdcurses/addch.c"
+addch.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/addchstr.o" "-c" "src/PDCurses/pdcurses/addchstr.c"
+addchstr.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/addstr.o" "-c" "src/PDCurses/pdcurses/addstr.c"
+addstr.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/attr.o" "-c" "src/PDCurses/pdcurses/attr.c"
+attr.c
+src/PDCurses/pdcurses/attr.c(205): warning C4100: 'opts': unreferenced formal parameter
+src/PDCurses/pdcurses/attr.c(224): warning C4100: 'opts': unreferenced formal parameter
+src/PDCurses/pdcurses/attr.c(247): warning C4100: 'opts': unreferenced formal parameter
+src/PDCurses/pdcurses/attr.c(254): warning C4100: 'opts': unreferenced formal parameter
+src/PDCurses/pdcurses/attr.c(261): warning C4100: 'opts': unreferenced formal parameter
+src/PDCurses/pdcurses/attr.c(268): warning C4100: 'opts': unreferenced formal parameter
+src/PDCurses/pdcurses/attr.c(275): warning C4100: 'opts': unreferenced formal parameter
+src/PDCurses/pdcurses/attr.c(294): warning C4100: 'opts': unreferenced formal parameter
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/beep.o" "-c" "src/PDCurses/pdcurses/beep.c"
+beep.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/bkgd.o" "-c" "src/PDCurses/pdcurses/bkgd.c"
+bkgd.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/border.o" "-c" "src/PDCurses/pdcurses/border.c"
+border.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/clear.o" "-c" "src/PDCurses/pdcurses/clear.c"
+clear.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/color.o" "-c" "src/PDCurses/pdcurses/color.c"
+color.c
+src/PDCurses/pdcurses/color.c(122): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/pdcurses/color.c(243): warning C4244: '=': conversion from 'int' to 'short', possible loss of data
+src/PDCurses/pdcurses/color.c(244): warning C4244: '=': conversion from 'int' to 'short', possible loss of data
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/debug.o" "-c" "src/PDCurses/pdcurses/debug.c"
+debug.c
+src/PDCurses/pdcurses/debug.c(52): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/pdcurses/debug.c(61): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/delch.o" "-c" "src/PDCurses/pdcurses/delch.c"
+delch.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/deleteln.o" "-c" "src/PDCurses/pdcurses/deleteln.c"
+deleteln.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/deprec.o" "-c" "src/PDCurses/pdcurses/deprec.c"
+deprec.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/getch.o" "-c" "src/PDCurses/pdcurses/getch.c"
+getch.c
+src/PDCurses/pdcurses/getch.c(95): warning C4100: 'win': unreferenced formal parameter
+src/PDCurses/pdcurses/getch.c(381): warning C4244: '=': conversion from 'int' to 'wint_t', possible loss of data
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/getstr.o" "-c" "src/PDCurses/pdcurses/getstr.c"
+getstr.c
+src/PDCurses/pdcurses/getstr.c(323): warning C4244: '=': conversion from 'int' to 'wint_t', possible loss of data
+src/PDCurses/pdcurses/getstr.c(389): warning C4244: '=': conversion from 'int' to 'wint_t', possible loss of data
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/getyx.o" "-c" "src/PDCurses/pdcurses/getyx.c"
+getyx.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/inch.o" "-c" "src/PDCurses/pdcurses/inch.c"
+inch.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/inchstr.o" "-c" "src/PDCurses/pdcurses/inchstr.c"
+inchstr.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/initscr.o" "-c" "src/PDCurses/pdcurses/initscr.c"
+initscr.c
+src/PDCurses/pdcurses/initscr.c(266): warning C4100: 'infd': unreferenced formal parameter
+src/PDCurses/pdcurses/initscr.c(266): warning C4100: 'outfd': unreferenced formal parameter
+src/PDCurses/pdcurses/initscr.c(266): warning C4100: 'type': unreferenced formal parameter
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\pdcurses\initscr.c(201) : warning C4706: assignment within conditional expression
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/inopts.o" "-c" "src/PDCurses/pdcurses/inopts.c"
+inopts.c
+src/PDCurses/pdcurses/inopts.c(169): warning C4100: 'bf': unreferenced formal parameter
+src/PDCurses/pdcurses/inopts.c(169): warning C4100: 'win': unreferenced formal parameter
+src/PDCurses/pdcurses/inopts.c(188): warning C4100: 'win': unreferenced formal parameter
+src/PDCurses/pdcurses/inopts.c(227): warning C4100: 'flag': unreferenced formal parameter
+src/PDCurses/pdcurses/inopts.c(227): warning C4100: 'win': unreferenced formal parameter
+src/PDCurses/pdcurses/inopts.c(264): warning C4100: 'fildes': unreferenced formal parameter
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/insch.o" "-c" "src/PDCurses/pdcurses/insch.c"
+insch.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/insstr.o" "-c" "src/PDCurses/pdcurses/insstr.c"
+insstr.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/instr.o" "-c" "src/PDCurses/pdcurses/instr.c"
+instr.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/kernel.o" "-c" "src/PDCurses/pdcurses/kernel.c"
+kernel.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/keyname.o" "-c" "src/PDCurses/pdcurses/keyname.c"
+keyname.c
+src/PDCurses/pdcurses/keyname.c(137): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/mouse.o" "-c" "src/PDCurses/pdcurses/mouse.c"
+mouse.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/move.o" "-c" "src/PDCurses/pdcurses/move.c"
+move.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/outopts.o" "-c" "src/PDCurses/pdcurses/outopts.c"
+outopts.c
+src/PDCurses/pdcurses/outopts.c(83): warning C4100: 'bf': unreferenced formal parameter
+src/PDCurses/pdcurses/outopts.c(83): warning C4100: 'win': unreferenced formal parameter
+src/PDCurses/pdcurses/outopts.c(90): warning C4100: 'bf': unreferenced formal parameter
+src/PDCurses/pdcurses/outopts.c(90): warning C4100: 'win': unreferenced formal parameter
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/overlay.o" "-c" "src/PDCurses/pdcurses/overlay.c"
+overlay.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/pad.o" "-c" "src/PDCurses/pdcurses/pad.c"
+pad.c
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\pdcurses\pad.c(86) : warning C4706: assignment within conditional expression
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\pdcurses\pad.c(86) : warning C4706: assignment within conditional expression
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\pdcurses\pad.c(132) : warning C4706: assignment within conditional expression
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/panel.o" "-c" "src/PDCurses/pdcurses/panel.c"
+panel.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/printw.o" "-c" "src/PDCurses/pdcurses/printw.c"
+printw.c
+src/PDCurses/pdcurses/printw.c(54): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/refresh.o" "-c" "src/PDCurses/pdcurses/refresh.c"
+refresh.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/scanw.o" "-c" "src/PDCurses/pdcurses/scanw.c"
+scanw.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/scr_dump.o" "-c" "src/PDCurses/pdcurses/scr_dump.c"
+scr_dump.c
+src/PDCurses/pdcurses/scr_dump.c(169): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/pdcurses/scr_dump.c(179): warning C4100: 'filename': unreferenced formal parameter
+src/PDCurses/pdcurses/scr_dump.c(192): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\pdcurses\scr_dump.c(102) : warning C4706: assignment within conditional expression
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\pdcurses\scr_dump.c(119) : warning C4706: assignment within conditional expression
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\pdcurses\scr_dump.c(127) : warning C4706: assignment within conditional expression
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\pdcurses\scr_dump.c(134) : warning C4706: assignment within conditional expression
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\pdcurses\scr_dump.c(144) : warning C4706: assignment within conditional expression
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/scroll.o" "-c" "src/PDCurses/pdcurses/scroll.c"
+scroll.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/slk.o" "-c" "src/PDCurses/pdcurses/slk.c"
+slk.c
+src/PDCurses/pdcurses/slk.c(372): warning C4100: 'opts': unreferenced formal parameter
+src/PDCurses/pdcurses/slk.c(391): warning C4100: 'opts': unreferenced formal parameter
+src/PDCurses/pdcurses/slk.c(422): warning C4100: 'opts': unreferenced formal parameter
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\pdcurses\slk.c(474) : warning C4706: assignment within conditional expression
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/termattr.o" "-c" "src/PDCurses/pdcurses/termattr.c"
+termattr.c
+src/PDCurses/pdcurses/termattr.c(115): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/terminfo.o" "-c" "src/PDCurses/pdcurses/terminfo.c"
+terminfo.c
+src/PDCurses/pdcurses/terminfo.c(55): warning C4100: 'oldcol': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(55): warning C4100: 'oldrow': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(70): warning C4100: 'attr': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(77): warning C4100: 'opt': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(77): warning C4100: 'color_pair': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(77): warning C4100: 'attr': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(84): warning C4100: 'putfunc': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(84): warning C4100: 'attr': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(91): warning C4100: 'putfunc': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(91): warning C4100: 'opt': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(91): warning C4100: 'color_pair': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(91): warning C4100: 'attr': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(98): warning C4100: 'oterm': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(105): warning C4100: 'str': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(112): warning C4100: 'filedes': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(112): warning C4100: 'term': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(122): warning C4100: 'nterm': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(129): warning C4100: 'term': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(136): warning C4100: 'filedes': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(136): warning C4100: 'term': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(148): warning C4100: 'name': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(148): warning C4100: 'bp': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(155): warning C4100: 'id': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(162): warning C4100: 'id': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(169): warning C4100: 'area': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(169): warning C4100: 'id': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(176): warning C4100: 'row': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(176): warning C4100: 'col': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(176): warning C4100: 'cap': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(183): warning C4100: 'capname': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(190): warning C4100: 'capname': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(197): warning C4100: 'capname': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(205): warning C4100: 'p9': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(205): warning C4100: 'p8': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(205): warning C4100: 'p7': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(205): warning C4100: 'p6': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(205): warning C4100: 'p5': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(204): warning C4100: 'p4': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(204): warning C4100: 'p3': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(204): warning C4100: 'p2': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(204): warning C4100: 'p1': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(204): warning C4100: 'cap': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(212): warning C4100: 'putfunc': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(212): warning C4100: 'affcnt': unreferenced formal parameter
+src/PDCurses/pdcurses/terminfo.c(212): warning C4100: 'str': unreferenced formal parameter
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/touch.o" "-c" "src/PDCurses/pdcurses/touch.c"
+touch.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/util.o" "-c" "src/PDCurses/pdcurses/util.c"
+util.c
+src/PDCurses/pdcurses/util.c(120): warning C4100: 'x': unreferenced formal parameter
+src/PDCurses/pdcurses/util.c(134): warning C4100: 'opts': unreferenced formal parameter
+src/PDCurses/pdcurses/util.c(158): warning C4100: 'opts': unreferenced formal parameter
+src/PDCurses/pdcurses/util.c(261): warning C4245: 'return': conversion from 'int' to 'size_t', signed/unsigned mismatch
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/window.o" "-c" "src/PDCurses/pdcurses/window.c"
+window.c
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\pdcurses\window.c(251) : warning C4706: assignment within conditional expression
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\pdcurses\window.c(251) : warning C4706: assignment within conditional expression
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\pdcurses\window.c(320) : warning C4706: assignment within conditional expression
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\pdcurses\window.c(391) : warning C4706: assignment within conditional expression
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\pdcurses\window.c(391) : warning C4706: assignment within conditional expression
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\pdcurses\window.c(444) : warning C4706: assignment within conditional expression
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\pdcurses\window.c(450) : warning C4706: assignment within conditional expression
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\pdcurses\window.c(467) : warning C4706: assignment within conditional expression
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\pdcurses\window.c(476) : warning C4706: assignment within conditional expression
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/win32a/pdcclip.o" "-c" "src/PDCurses/win32a/pdcclip.c"
+pdcclip.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/win32a/pdcdisp.o" "-c" "src/PDCurses/win32a/pdcdisp.c"
+pdcdisp.c
+src/PDCurses/win32a/pdcdisp.c(203): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcdisp.c(205): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcdisp.c(207): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcdisp.c(254): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/win32a/pdcgetsc.o" "-c" "src/PDCurses/win32a/pdcgetsc.c"
+pdcgetsc.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/win32a/pdckbd.o" "-c" "src/PDCurses/win32a/pdckbd.c"
+pdckbd.c
+src/PDCurses/win32a/pdckbd.c(31): warning C4100: 'on': unreferenced formal parameter
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/win32a/pdcscrn.o" "-c" "src/PDCurses/win32a/pdcscrn.c"
+pdcscrn.c
+src/PDCurses/win32a/pdcscrn.c(70): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(76): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(663): warning C4456: declaration of 'i' hides previous local declaration
+src/PDCurses/win32a/pdcscrn.c(588): note: see declaration of 'i'
+src/PDCurses/win32a/pdcscrn.c(1093): warning C4996: '_wsplitpath': This function or variable may be unsafe. Consider using _wsplitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1097): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1098): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1107): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1111): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1112): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1114): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1120): warning C4996: '_wsplitpath': This function or variable may be unsafe. Consider using _wsplitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1121): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1159): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1189): warning C4459: declaration of 'menu_shown' hides global declaration
+src/PDCurses/win32a/pdcscrn.c(12): note: see declaration of 'menu_shown'
+src/PDCurses/win32a/pdcscrn.c(1214): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1390): warning C4459: declaration of 'menu_shown' hides global declaration
+src/PDCurses/win32a/pdcscrn.c(12): note: see declaration of 'menu_shown'
+src/PDCurses/win32a/pdcscrn.c(1431): warning C4459: declaration of 'menu_shown' hides global declaration
+src/PDCurses/win32a/pdcscrn.c(12): note: see declaration of 'menu_shown'
+src/PDCurses/win32a/pdcscrn.c(1453): warning C4996: 'swscanf': This function or variable may be unsafe. Consider using swscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1460): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1801): warning C4100: 'wParam': unreferenced formal parameter
+src/PDCurses/win32a/pdcscrn.c(1871): warning C4244: 'initializing': conversion from 'BOOL' to 'const bool', possible loss of data
+src/PDCurses/win32a/pdcscrn.c(2533): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(2619): warning C4100: 'i': unreferenced formal parameter
+src/PDCurses/win32a/pdcscrn.c(2623): warning C4100: 'i': unreferenced formal parameter
+C:\Users\91908\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\win32a\pdcscrn.c(90) : warning C4702: unreachable code
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/win32a/pdcsetsc.o" "-c" "src/PDCurses/win32a/pdcsetsc.c"
+pdcsetsc.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src/PDCurses" "-W4" "-DPDC_WIDE=Y" "-DPDC_FORCE_UTF8=Y" "-DPDC_RGB=Y" "-FoC:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/win32a/pdcutil.o" "-c" "src/PDCurses/win32a/pdcutil.c"
+pdcutil.c
+exit code: 0
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\lib.exe" "-out:C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\libpdcurses.a" "-nologo" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/addch.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/addchstr.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/addstr.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/attr.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/beep.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/bkgd.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/border.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/clear.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/color.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/debug.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/delch.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/deleteln.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/deprec.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/getch.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/getstr.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/getyx.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/inch.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/inchstr.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/initscr.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/inopts.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/insch.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/insstr.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/instr.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/kernel.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/keyname.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/mouse.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/move.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/outopts.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/overlay.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/pad.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/panel.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/printw.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/refresh.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/scanw.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/scr_dump.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/scroll.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/slk.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/termattr.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/terminfo.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/touch.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/util.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/pdcurses/window.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/win32a/pdcclip.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/win32a/pdcdisp.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/win32a/pdcgetsc.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/win32a/pdckbd.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/win32a/pdcscrn.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/win32a/pdcsetsc.o" "C:\\Users\\91908\\Rust\\Rust-Documentation\\Rust_Functions\\target\\debug\\build\\pdcurses-sys-79b233849dc0e144\\out\\src/PDCurses/win32a/pdcutil.o"
+exit code: 0
+cargo:rustc-link-lib=static=pdcurses
+cargo:rustc-link-search=native=C:\Users\91908\Rust\Rust-Documentation\Rust_Functions\target\debug\build\pdcurses-sys-79b233849dc0e144\out

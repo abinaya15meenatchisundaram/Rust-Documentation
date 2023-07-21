@@ -6,3 +6,46 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+fs = "0.0.5"    
+io = "0.0.2"
+cmp = "0.0.0"
+fmt = "0.1.0"
+ops = "0.6.0"
+hashmap = "0.0.1"
+
+[[bin]]
+name = "customer_hashmap"
+path = "src/bin/customer_hashmap.rs"
+
+[[bin]]
+name = "functions"
+path = "src/bin/functions.rs"
+
+[[bin]]
+name = "generics"
+path = "src/bin/generics.rs"
+
+[[bin]]
+name = "ownership"
+path = "src/bin/ownership.rs"
+
+[[bin]]
+name = "rect_hashmap"
+path = "src/bin/rect_hashmap.rs"
+
+[[bin]]
+name = "string_casting"
+path = "src/bin/string_casting.rs"
+
+[[bin]]
+name = "strings"
+path = "src/bin/strings.rs"
+
+[[bin]]
+name = "struct"
+path = "src/bin/struct.rs"
+
+[[bin]]
+name = "vector"
+path = "src/bin/vector.rs"
+# Add more [[bin]] sections if you have additional binaries.

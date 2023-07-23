@@ -68,3 +68,11 @@ path = "src/bin/print_expect.rs"
 [[bin]]
 name = "primitives"
 path = "src/bin/pririmitives.rs"
+
+[[bin]]
+name = "operators"
+path = "src/bin/operators.rs"
+
+[[bin]]
+name = "conditional_statement"
+path = "src/bin/conditional_statement.rs"

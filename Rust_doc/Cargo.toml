@@ -48,4 +48,19 @@ path = "src/bin/struct.rs"
 [[bin]]
 name = "vector"
 path = "src/bin/vector.rs"
-# Add more [[bin]] sections if you have additional binaries.
+
+[[bin]]
+name = "traits"
+path = "src/bin/traits.rs"
+
+[[bin]]
+name = "guessing_game"
+path = "src/bin/guessing_game.rs"
+
+[[bin]]
+name = "print_statement"
+path = "src/bin/print_statement.rs"
+
+[[bin]]
+name = "print_expect"
+path = "src/bin/print_expect.rs"

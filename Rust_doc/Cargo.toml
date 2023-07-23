@@ -64,3 +64,7 @@ path = "src/bin/print_statement.rs"
 [[bin]]
 name = "print_expect"
 path = "src/bin/print_expect.rs"
+
+[[bin]]
+name = "primitives"
+path = "src/bin/pririmitives.rs"

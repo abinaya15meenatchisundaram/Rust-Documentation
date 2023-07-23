@@ -12,6 +12,7 @@ cmp = "0.0.0"
 fmt = "0.1.0"
 ops = "0.6.0"
 hashmap = "0.0.1"
+rand = "0.8.5"
 
 [[bin]]
 name = "customer_hashmap"

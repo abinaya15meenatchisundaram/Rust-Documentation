@@ -6,6 +6,6 @@ fn get_sum(x:i32,y:i32) ->i32{
 }
 
 fn main() {
-    let mut c:i32;
+
     println!("{}",get_sum(5,4));
 }

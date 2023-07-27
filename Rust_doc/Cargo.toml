@@ -77,3 +77,7 @@ path = "src/bin/operators.rs"
 [[bin]]
 name = "conditional_statement"
 path = "src/bin/conditional_statement.rs"
+
+[[bin]]
+name = "struct2"
+path = "src/bin/struct2.rs"

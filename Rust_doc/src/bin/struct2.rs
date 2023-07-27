@@ -12,5 +12,12 @@ fn main(){
 
     let mut bg= color{red:255,green:70,blue:15};
     bg.red=45; 
+    print_color(&blue);
+    //print_color(&blue);
+
     println!("{}, {}, {}",bg.red,bg.green,bg.blue);
+}
+
+fn print_color(c:&color){
+    println!("Color - R:{} , G:{} , B:{}",c.red,c.green,c.blue);
 }

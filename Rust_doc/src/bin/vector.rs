@@ -26,3 +26,14 @@ fn main() {
 
     }
 
+    fn main() {
+        let mut my_vec=vec![1,2,3,4];
+        println!("{}",my_vec[1]);
+        my_vec.push(5);
+        my_vec.remove(1);
+        
+        for i in my_vec.iter(){
+            println!("The vector is {}",i);
+        }
+    }
+    

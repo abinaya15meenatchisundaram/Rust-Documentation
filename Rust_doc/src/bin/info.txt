@@ -1,0 +1,3 @@
+Hello Friends
+Welcome to my repo
+Let's learn Rust together

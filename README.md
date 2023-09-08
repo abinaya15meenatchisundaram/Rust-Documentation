@@ -16,3 +16,6 @@ cargo new hello_world -- bin
 This code will basically create a binary application hello_world project.
 In the created directory there will be a cargo.toml file which is the package file.
 
+
+## Macros
+The "format" macro is used in the code above to assign the variable values to the appropriate locations. Depending on the datatype, we could have simply supplied the variable name in Python to save the value. Here, we'll use "let" in front of the variable name. 
